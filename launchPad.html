@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnival Game Launch Pad</title>
+    <link rel="stylesheet" href="LaunchPadStyle.css">
+</head>
+
+<body>
+    <div id="header">
+        <h1>Shooting Gallery</h1>
+    </div>
+
+    <div id="form">
+        <form id="launchPadForm">
+            <label for="userName">Enter your name</label>
+            <input type="text" id="userName" required>
+        </form>
+        <div id="difficultyButtons">
+            <button onclick="setDifficulty(1)">Level 1</button>
+            <button onclick="setDifficulty(2)">Level 2</button>
+            <button onclick="setDifficulty(3)">Level 3</button>
+        </div>
+        <!-- allows user to turn music on, default is on-->
+        <button id="soundButton" onclick="toggleSound()">Sound On/Off</button>
+    </div>
+
+    <script src="Launch.js"></script>
+</body>
+
+</html>

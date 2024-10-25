@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    /* Stock carnival image from istock website https://media.istockphoto.com/id/1356973090/video/circus-animated-rotation-looped-background-of-red-and-gold-lines-stripe-with-star.jpg?s=640x640&k=20&c=E_xkfMHpkEiidYgt65BsUNMSV5UBcChDMTdCKnxGlPs= */
+    background-image: url('CarnivalLaunch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+#header{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 150px;
+    font-size: 34px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#form {
+    width: 400px; 
+    max-width: 90%; 
+    margin: 0 auto; 
+}
+#launchPadForm label {
+    font-size: 24px; 
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#launchPadForm input[type="text"] {
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+    margin-bottom: 10px; 
+}
+
+#soundButton{
+    margin-top: 20px;
+}
+
+
+
+

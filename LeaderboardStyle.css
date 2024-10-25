@@ -1,0 +1,59 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* stock background image from https://media.istockphoto.com/id/523916765/vector/circus-poster.jpg?s=612x612&w=0&k=20&c=QOK9cT7V_pe2BdxfF3F2DQIBZaWzhc_Ye1Yd7vaO_M8= */
+    background-image: url('LeaderboardBackground.jpg');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    text-align: center;
+    font-size: 34px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th,td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+    background-color: transparent;
+    color: #333;
+}
+
+th {
+    background-color: transparent;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
